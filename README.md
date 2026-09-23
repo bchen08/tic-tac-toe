@@ -19,5 +19,7 @@ What I learned: Getting the computer to move on its own was by far the hardest c
 References:
 
 https://react.dev/learn/tutorial-tic-tac-toe
+
 https://react.dev/reference/react/useEffect
+
 https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
