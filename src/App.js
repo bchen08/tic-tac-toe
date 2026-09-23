@@ -31,12 +31,12 @@ export default function Board() {
     }
 
     const move = emptySquares[Math.floor(Math.random() * emptySquares.length)]; {/* produces an integer 0-<list length>*/}
-    const timer = setTimeout(() => {
+    setTimeout(() => {
       const nextSquares = squares.slice();
       nextSquares[move] = "O";
       setSquares(nextSquares);
       setXIsNext(true); {/*turn goes BACK to X */}
-    }, 500); {/*ms*/} 
+    }, 1000); {/*ms*/} 
     }, [computersTurn, gameOver, squares]); 
 
 
