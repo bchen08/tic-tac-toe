@@ -3,8 +3,11 @@ Overview: A tic-tac-toe game with two game modes, draw detection, and some custo
 How to run: Node.js must be installed locally. In terminal, run:
 
 git clone https://github.com/bchen08/tic-tac-toe.git
+
 cd tic-tac-toe
+
 npm install
+
 npm start
 
 The game will open in: http://localhost:3000
